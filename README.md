@@ -26,7 +26,7 @@ A modern and attractive To-Do List web application built using HTML, CSS, and Ja
 
 ## 📸 Screenshots
 
-![App Screenshot](Screenshot 2026-03-19 183120.png)
+![App Screenshot](screenshot.png)
 ---
 
 ## ▶️ How to Run
