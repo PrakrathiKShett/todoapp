@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+    background: linear-gradient(135deg, #6A5AE0, #8E7CFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Phone UI */
+.phone {
+    width: 330px;
+    height: 650px;
+    background: #F8F9FF;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+h2 {
+    margin: 0;
+}
+
+.sub {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* Search */
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.small {
+    color: gray;
+    font-size: 12px;
+}
+
+.time {
+    color: orange;
+    font-size: 12px;
+}
+
+/* Section */
+.section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Task list */
+ul {
+    padding: 0;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+li {
+    list-style: none;
+    background: white;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Completed */
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* Button */
+.add-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: linear-gradient(90deg, #FF7A7A, #FF5C5C);
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+}
